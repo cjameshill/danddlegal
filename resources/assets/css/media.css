@@ -1,0 +1,194 @@
+/* @override */
+
+
+/* Very large screens */
+@media only screen and (min-width: 767px) { 
+
+	.mainColumn {
+		width: 20%;
+	}
+
+
+ }
+ 
+ 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+	header {
+		font-size: 19px;
+		letter-spacing: 0;
+	}
+	
+	
+	.p3 {
+		font-size: 36px;
+	}
+	
+
+	
+	
+	/*
+	.main-header {
+		height: 60px;
+	}
+
+
+	.weblogo {
+		width: 80px;
+		}*/
+
+}
+ 
+ 
+
+
+/* Small screens */
+@media only screen and (max-width: 767px) { 
+
+	body {
+		background-color: #a42a1b;
+	}
+
+		nav {
+			position: absolute;
+			margin-top: 90px;
+			
+		}
+		
+		nav ul li {
+			font-size: 40px;
+			height: 60px;
+		}
+
+		.main-header {
+			width: 100%;
+			overflow: visible;
+			position: relative;
+		}
+		
+		
+		#newWrapper {
+			display: none;
+		}
+		
+		
+		
+		.mainColumn {
+			width: 100%;
+		
+			padding-top: 0px;
+		}
+		
+		#colContent {
+			width: 100%;
+			padding: 0;
+			margin-top: 50px;
+			clear: both;
+		
+		}
+		
+		#colContent .panel {
+	
+			margin: 0 auto;
+			padding: 9px 0;
+			
+		}
+		
+		#colContent header {
+			font-size: 3em;
+			letter-spacing: -1px;
+		}
+		
+		#colContent header span {
+			white-space: normal;
+		}
+	
+		#colContent .panel {
+			margin-top: 70px;
+		}
+		
+		#col1, #col2, #col3, #col4, #col5 {
+			background:none;
+		}
+		
+		
+		#col1 {
+			background-color: #FF4C4C;
+		}
+		
+		#col2 {
+			background-color: #7F0000;
+		}
+		
+		#col3 {
+			background-color: #FF0000;
+		}
+		
+		
+		#col4 {
+			background-color: #7F2626;
+		}
+		
+		#col5 {
+			background-color: #CC0000;
+		}
+	
+	
+	
+		
+		.huge, header {
+			font-size: 30px; letter-spacing: -1px;
+		}
+		
+		.p1 {
+			font-size: 4em; letter-spacing: -5px;
+		}
+		
+		.p2 {
+			font-size: 3.5em; letter-spacing: -2px;
+		}
+		
+		.p3 {
+			font-size: 2.7em; letter-spacing: -1px;
+		}
+		
+		.p4 {
+			font-size: 2.3em; letter-spacing: -1px;
+		}
+		
+		.p5 {
+			font-size: 1.4em; letter-spacing: 0px;
+		}
+		
+		.p6 {
+			font-size: 1.3em; letter-spacing: 0px;
+		}
+		
+		
+		.column-text {
+			-moz-column-count: 1;
+			-moz-column-gap: 30px;
+			-webkit-column-count: 1;
+			-webkit-column-gap: 30px;
+			column-count: 1;
+			column-gap: 30px;
+		}
+		
+		
+		.about-text {
+			font: 26px Helvetica, sans-serif;
+			letter-spacing: -1px;
+			font-weight: 100;
+		}
+		
+
+		#contact {
+			position: absolute;
+			display: block;
+		}
+	
+
+ }

@@ -1,0 +1,16 @@
+
+/*--------------------- FORMS ------------------------ */
+
+#contactForm {
+	height: 370px;
+	overflow: hidden;
+	height: 0;
+	border-bottom: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+

@@ -1,0 +1,149 @@
+/*--------------------- NAV ------------------------ */
+
+nav {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 100px;	
+	z-index: 9999;
+
+	height: 80px;
+}
+
+
+nav ul {
+	display: inline-block;
+	height: 80px;
+}
+
+nav ul li {
+	text-decoration: none;
+	display: inline-block;
+	width: auto;
+	height: 80px;
+	padding: 0.7em 10px;
+	color: #909090;
+	font: 30px LaneNarrowRegular, Helvetica, sans-serif;
+	letter-spacing: -1px;
+
+	/*background: #ededed; /* Old browsers *!/
+	background: -moz-linear-gradient(top, #ededed 0%, #f6f6f6 47%, #ffffff 100%); /* FF3.6+ *!/
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(47%,#f6f6f6), color-stop(100%,#ffffff)); /* Chrome,Safari4+ *!/
+	background: -webkit-linear-gradient(top, #ededed 0%,#f6f6f6 47%,#ffffff 100%); /* Chrome10+,Safari5.1+ *!/
+	background: -o-linear-gradient(top, #ededed 0%,#f6f6f6 47%,#ffffff 100%); /* Opera 11.10+ *!/
+	background: -ms-linear-gradient(top, #ededed 0%,#f6f6f6 47%,#ffffff 100%); /* IE10+ *!/
+	background: linear-gradient(to bottom, #ededed 0%,#f6f6f6 47%,#ffffff 100%); /* W3C *!/
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 *!/*/
+	cursor: pointer;
+}
+
+
+nav ul li:first-child {
+		border-right: 1px solid #ccc;
+}
+
+nav ul li:hover {
+	color: #464646;
+}
+
+
+.menu-dropdown {
+	display: none;
+	position: absolute;
+	color: #fff;
+	padding: 0;
+	cursor: pointer;
+	right: 0;
+	height: 23px;
+	width: 30px;
+	margin: 10px;
+	top: 0;
+	overflow: hidden;
+
+
+}
+
+.menu-dropdown img {
+	display: block;
+	top: 0;
+	position: absolute;
+
+}
+
+.close {
+	display: block;
+	float: right;
+	top: 0;
+	right: 0;
+	color: #fff;
+	font-size: 50px;
+	margin: 8px;
+	cursor: pointer;
+}
+
+.close:hover {
+	color: #ccc;
+}
+
+.weblogo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	width: 120px;
+	display: block;
+}
+
+
+
+
+/* -------------------- GET IN TOUCH ------------------------------*/
+
+#getintouch {
+	height: 20px;
+	background-color: #585858;
+}
+
+
+#dropdown img {
+	width: 45px;
+	margin: -10px 15px;
+}
+
+#dropdown p {
+	line-height: 65px;
+}
+
+
+#dropdown .huge {
+	font-size: 40px;
+	letter-spacing: -2px;
+}
+
+/* -------------------- TYPOGRAPHY ------------------------------*/
+
+#colContent .p6, #colContent ol li {
+	font-family: 'LaneNarrowRegular', helvetica, sans-serif;
+	font-weight: 100;
+	letter-spacing: 0px;
+	font-size: 24px;
+}
+
+
+blockquote {
+	margin-left: 50px;
+	border: none;
+	color: #000;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .p1, .p2, .p3, .p4, .p5, .p6, .huge, span {
+	font-family:  'LaneNarrowRegular', arial black, helvetica, sans-serif;
+
+}
+
+#lastSection p span {
+	font-family: 'LaneNarrowRegular', arial black, sans-serif;
+}
+
+
